@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhysioConnect | Premium Physiotherapy Booking Platform</title>
+  <meta name="description" content="Book instant physiotherapy appointments with top-rated certified professionals. Seamless scheduling, transparent fees, and online payments.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- FontAwesome Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Floating Navigation Bar -->
+  <nav class="navbar" id="main-nav">
+    <div class="nav-container">
+      <a href="#landing" class="nav-logo" id="nav-logo-link">
+        <div class="logo-icon"><i class="fa-solid fa-house-chimney-medical"></i></div>
+        <span>Physio<span>Connect</span></span>
+      </a>
+      
+      <!-- Hamburger Menu for mobile -->
+      <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-menu" id="nav-menu-links">
+        <a href="#landing" class="nav-link active" id="nav-link-landing">Home</a>
+        
+        <!-- Guest Links -->
+        <div class="nav-group-guest" id="nav-links-guest">
+          <a href="#login" class="nav-link nav-btn-login" id="nav-btn-signin-nav">Sign In</a>
+          <a href="#signup" class="nav-link nav-btn-signup" id="nav-btn-signup-nav">Sign Up</a>
+        </div>
+
+        <!-- Patient Links -->
+        <div class="nav-group-patient" id="nav-links-patient" style="display: none;">
+          <a href="#patient-dashboard" class="nav-link" id="nav-link-patient-dash">Dashboard</a>
+          <span class="nav-user-badge" id="nav-patient-badge">Patient</span>
+          <button class="nav-link logout-btn" id="nav-btn-logout-patient"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+        </div>
+
+        <!-- Physiotherapist Links -->
+        <div class="nav-group-physio" id="nav-links-physio" style="display: none;">
+          <a href="#physio-dashboard" class="nav-link" id="nav-link-physio-dash">Dashboard</a>
+          <span class="nav-user-badge badge-physio" id="nav-physio-badge">Physiotherapist</span>
+          <button class="nav-link logout-btn" id="nav-btn-logout-physio"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Views Container -->
+  <main class="views-container" id="main-views-wrapper">
+
+    <!-- 1. LANDING PAGE VIEW -->
+    <section class="view-section" id="landing-view">
+      <div class="hero-section">
+        <div class="hero-content">
+          <div class="hero-tag">Professional Care & Immediate Relief</div>
+          <h1 class="hero-title">Your Path to <span class="gradient-text">Pain-Free</span> Living Starts Here</h1>
+          <p class="hero-subtitle">Connect with elite, certified physiotherapists. Book appointment slots in seconds, manage schedules dynamically, and complete transactions securely.</p>
+          <div class="hero-actions">
+            <a href="#signup" class="hero-btn primary-btn" id="hero-btn-book">
+              <i class="fa-regular fa-calendar-check"></i> Book an Appointment
+            </a>
+            <a href="#login" class="hero-btn secondary-btn" id="hero-btn-manage">
+              <i class="fa-solid fa-user-doctor"></i> For Physiotherapists
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card card-patients">
+            <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+            <div class="card-details">
+              <h4>1,200+</h4>
+              <p>Active Patients</p>
+            </div>
+          </div>
+          <div class="floating-card card-therapists">
+            <div class="card-icon"><i class="fa-solid fa-user-md"></i></div>
+            <div class="card-details">
+              <h4>Verified</h4>
+              <p>Certified Specialists</p>
+            </div>
+          </div>
+          <div class="hero-circle-bg"></div>
+          <div class="hero-main-graphic">
+            <!-- Simulated premium medical UI graphics using CSS shapes & icons -->
+            <div class="medical-grid">
+              <div class="grid-dot"></div>
+              <div class="grid-line"></div>
+              <i class="fa-solid fa-heart-pulse medical-pulse"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Features Section -->
+      <div class="features-section">
+        <div class="section-header">
+          <h2>Why Choose PhysioConnect?</h2>
+          <p>A comprehensive clinic management and patient booking hub engineered for efficiency.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+            <h3>Instant Booking</h3>
+            <p>Select your preferred therapist, inspect their schedule live, and finalize slots within minutes.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <h3>Dynamic Schedules</h3>
+            <p>Physiotherapists can construct slots, flag personal days off, and modify clinic hours dynamically.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fa-solid fa-credit-card"></i></div>
+            <h3>Secured Checkout</h3>
+            <p>Integrated payments system facilitating swift booking confirmations and transaction receipts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. AUTHENTICATION & ONBOARDING VIEW -->
+    <section class="view-section" id="auth-view" style="display: none;">
+      <div class="auth-card">
+        <div class="auth-tabs">
+          <button class="auth-tab-btn active" id="auth-tab-login-btn">Sign In</button>
+          <button class="auth-tab-btn" id="auth-tab-signup-btn">Sign Up</button>
+        </div>
+
+        <div class="auth-forms-container">
+          <!-- Sign In Form -->
+          <form class="auth-form" id="login-form">
+            <h2 class="form-title">Welcome Back</h2>
+            <p class="form-desc">Log in to manage appointments, slots, or payments.</p>
+            
+            <div class="form-group">
+              <label for="login-email">Email Address</label>
+              <div class="input-wrapper">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="login-email" required placeholder="name@example.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="login-password">Password</label>
+              <div class="input-wrapper">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="login-password" required placeholder="••••••••">
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="login-submit-btn">
+              <span>Sign In</span> <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+
+          <!-- Sign Up Form -->
+          <form class="auth-form" id="signup-form" style="display: none;">
+            <h2 class="form-title">Create Account</h2>
+            <p class="form-desc">Get started by choosing your account profile type.</p>
+
+            <div class="form-group">
+              <label>Select Your Role</label>
+              <div class="role-selector">
+                <input type="radio" name="role" id="role-patient" value="user" checked>
+                <label for="role-patient" class="role-label" id="role-patient-label">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Patient</span>
+                </label>
+
+                <input type="radio" name="role" id="role-physio" value="physiotherapist">
+                <label for="role-physio" class="role-label" id="role-physio-label">
+                  <i class="fa-solid fa-user-doctor"></i>
+                  <span>Physiotherapist</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Profile Info (Common) -->
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="signup-name">Full Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user"></i>
+                  <input type="text" id="signup-name" required placeholder="John Doe">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="signup-email">Email Address</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope"></i>
+                  <input type="email" id="signup-email" required placeholder="john@example.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="signup-password">Password</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-lock"></i>
+                  <input type="password" id="signup-password" required placeholder="••••••••">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="signup-phone">Contact Number</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-phone"></i>
+                  <input type="tel" id="signup-phone" required placeholder="+1 555-019-2834">
+                </div>
+              </div>
+            </div>
+
+            <!-- Role-Specific Fields: Patient -->
+            <div class="role-fields" id="patient-fields-wrapper">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="patient-age">Age</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <input type="number" id="patient-age" min="1" max="120" placeholder="28">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="patient-gender">Gender</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-venus-mars"></i>
+                    <select id="patient-gender">
+                      <option value="" disabled selected>Select gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Non-binary">Non-binary</option>
+                      <option value="Prefer not to say">Prefer not to say</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Role-Specific Fields: Physiotherapist -->
+            <div class="role-fields" id="physio-fields-wrapper" style="display: none;">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="physio-qualification">Qualification</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <input type="text" id="physio-qualification" placeholder="DPT, B.Physio, MSc">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="physio-specialization">Specialization</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-briefcase-medical"></i>
+                    <input type="text" id="physio-specialization" placeholder="Sports Rehab, Orthopedics">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="physio-fees">Fees per Appointment ($)</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input type="number" id="physio-fees" min="0" placeholder="100">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="physio-address">Clinic Address</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" id="physio-address" placeholder="123 Medical Center Way">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="signup-submit-btn">
+              <span>Register Account</span> <i class="fa-solid fa-user-plus"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PATIENT DASHBOARD VIEW -->
+    <section class="view-section dashboard-section" id="patient-dashboard-view" style="display: none;">
+      <header class="dash-header">
+        <div>
+          <h1 class="dash-welcome-title">Hello, <span id="patient-welcome-name">Patient</span></h1>
+          <p class="dash-welcome-desc">Explore professional physiotherapists, book appointment slots, and manage upcoming visits.</p>
+        </div>
+      </header>
+
+      <div class="dash-grid">
+        <!-- List of Physiotherapists -->
+        <div class="dash-card main-list-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-user-doctor"></i> Available Physiotherapists</h3>
+            <p>Select a specialist to inspect schedule & book sessions.</p>
+          </div>
+          <div class="physio-cards-list" id="physio-list-container">
+            <!-- Dynamic Physiotherapist cards go here -->
+            <div class="loading-spinner"><i class="fa-solid fa-circle-notch fa-spin"></i> Loading specialists...</div>
+          </div>
+        </div>
+
+        <!-- Upcoming Appointments -->
+        <div class="dash-card side-list-card">
+          <div class="card-header">
+            <h3><i class="fa-regular fa-calendar-check"></i> My Appointments</h3>
+            <p>Your confirmed upcoming sessions.</p>
+          </div>
+          <div class="appointments-list" id="patient-appointments-container">
+            <!-- Dynamic appointments go here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PHYSIOTHERAPIST DASHBOARD VIEW -->
+    <section class="view-section dashboard-section" id="physio-dashboard-view" style="display: none;">
+      <header class="dash-header">
+        <div>
+          <h1 class="dash-welcome-title">Welcome Dr. <span id="physio-welcome-name">Doctor</span></h1>
+          <p class="dash-welcome-desc">Configure your session calendar, manage slots, and prioritize patient sequences.</p>
+        </div>
+      </header>
+
+      <div class="dash-grid">
+        <!-- Daily Timeline View -->
+        <div class="dash-card main-list-card">
+          <div class="card-header timeline-header-flex">
+            <div>
+              <h3><i class="fa-solid fa-calendar-day"></i> Appointments Timeline</h3>
+              <p>Sequence of booked patient visits for the day.</p>
+            </div>
+            <div class="timeline-date-picker">
+              <label for="physio-timeline-date" class="sr-only">Date</label>
+              <input type="date" id="physio-timeline-date" class="date-input">
+            </div>
+          </div>
+          
+          <div class="timeline-container" id="physio-timeline-container">
+            <!-- Dynamic sequence appointments go here -->
+          </div>
+        </div>
+
+        <!-- Schedule Configuration -->
+        <div class="dash-card side-list-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-sliders"></i> Schedule Manager</h3>
+            <p>Setup daily active slots, consultation fees, and days off.</p>
+          </div>
+          
+          <form id="physio-schedule-form" class="schedule-form">
+            <div class="form-group">
+              <label for="schedule-fees">Consultation Fee ($)</label>
+              <div class="input-wrapper">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <input type="number" id="schedule-fees" min="0" required placeholder="120">
+              </div>
+            </div>
+
+            <!-- Active Slots Config -->
+            <div class="form-group">
+              <label>Daily Active Slots</label>
+              <div class="slots-config-wrapper">
+                <div class="slot-add-control">
+                  <label for="new-slot-time" class="sr-only">New Slot Time</label>
+                  <input type="time" id="new-slot-time" class="time-picker-input">
+                  <button type="button" class="btn-add-slot" id="btn-add-slot-item">
+                    <i class="fa-solid fa-plus"></i> Add
+                  </button>
+                </div>
+                <div class="active-slots-tags" id="active-slots-tags-container">
+                  <!-- Dynamic tags (e.g. 09:00 AM [x]) -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Days Off Config -->
+            <div class="form-group">
+              <label>Mark Days Off</label>
+              <div class="daysoff-config-wrapper">
+                <div class="dayoff-add-control">
+                  <label for="new-dayoff-date" class="sr-only">New Day Off</label>
+                  <input type="date" id="new-dayoff-date" class="date-input">
+                  <button type="button" class="btn-add-dayoff" id="btn-add-dayoff-item">
+                    <i class="fa-solid fa-plus"></i> Add
+                  </button>
+                </div>
+                <div class="daysoff-list" id="daysoff-tags-container">
+                  <!-- Dynamic dates list -->
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-btn save-schedule-btn" id="btn-save-schedule">
+              <i class="fa-solid fa-floppy-disk"></i> Save Schedule Settings
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 5. APPOINTMENT BOOKING MODAL -->
+  <div class="modal-overlay" id="booking-modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="btn-close-booking-modal" aria-label="Close Booking Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <h2 id="modal-therapist-name">Book Session with Dr. Therapist</h2>
+        <p id="modal-therapist-specialty">Sports Rehabilitation Specialist</p>
+      </div>
+
+      <div class="modal-body">
+        <!-- Step 1: Slot and Date Picker -->
+        <div class="booking-step" id="booking-step-slots">
+          <div class="form-group">
+            <label for="booking-date">Choose Consultation Date</label>
+            <div class="input-wrapper">
+              <i class="fa-regular fa-calendar"></i>
+              <input type="date" id="booking-date" class="date-input">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Select Available Time Slot</label>
+            <div class="slots-grid-loading" id="slots-loading-indicator" style="display: none;">
+              <i class="fa-solid fa-circle-notch fa-spin"></i> Retrieving availability...
+            </div>
+            <div class="slots-grid" id="booking-slots-grid">
+              <!-- Dynamic slots build here -->
+            </div>
+          </div>
+
+          <div class="booking-summary-box">
+            <div class="summary-row">
+              <span>Appointment Fee</span>
+              <span id="summary-price">$0.00</span>
+            </div>
+          </div>
+
+          <button type="button" class="submit-btn next-step-btn" id="btn-proceed-to-payment" disabled>
+            <span>Proceed to Payment</span> <i class="fa-solid fa-credit-card"></i>
+          </button>
+        </div>
+
+        <!-- Step 2: Payment Details (Simulated) -->
+        <div class="booking-step" id="booking-step-payment" style="display: none;">
+          <div class="payment-card-visual">
+            <div class="card-chip"></div>
+            <div class="card-number-display" id="vis-card-number">•••• •••• •••• ••••</div>
+            <div class="card-footer-display">
+              <div class="card-holder-display" id="vis-card-holder">CARDHOLDER NAME</div>
+              <div class="card-expiry-display" id="vis-card-expiry">MM/YY</div>
+            </div>
+            <div class="card-visa-logo">VISA</div>
+          </div>
+
+          <form id="payment-billing-form">
+            <div class="form-group">
+              <label for="card-holder">Cardholder Name</label>
+              <div class="input-wrapper">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="card-holder" required placeholder="John Doe">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="card-number">Card Number</label>
+              <div class="input-wrapper">
+                <i class="fa-regular fa-credit-card"></i>
+                <input type="text" id="card-number" required placeholder="4111 2222 3333 4444" maxlength="19">
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="card-expiry">Expiration Date</label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-calendar"></i>
+                  <input type="text" id="card-expiry" required placeholder="MM/YY" maxlength="5">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="card-cvv">Security Code (CVV)</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <input type="password" id="card-cvv" required placeholder="123" maxlength="4">
+                </div>
+              </div>
+            </div>
+
+            <div class="payment-action-buttons">
+              <button type="button" class="btn-back" id="btn-back-to-slots">
+                <i class="fa-solid fa-arrow-left"></i> Change Slot
+              </button>
+              <button type="submit" class="submit-btn payment-confirm-btn" id="btn-confirm-payment">
+                <span id="payment-btn-text">Pay & Confirm Booking</span> 
+                <span class="btn-spinner" id="payment-spinner" style="display: none;"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. DEVELOPER MODE EMAIL SIMULATOR DRAWER -->
+  <div class="email-simulator-drawer collapsed" id="email-simulator">
+    <button class="simulator-toggle-bar" id="btn-toggle-simulator" aria-expanded="false">
+      <div class="toggle-left">
+        <span class="simulator-icon"><i class="fa-solid fa-inbox"></i></span>
+        <span class="simulator-title">Developer Email Simulator</span>
+        <span class="simulator-badge" id="simulator-badge-count">0</span>
+      </div>
+      <div class="toggle-right">
+        <span class="toggle-status-txt">Expand Simulator Console</span>
+        <i class="fa-solid fa-chevron-up toggle-arrow"></i>
+      </div>
+    </button>
+    
+    <div class="simulator-content">
+      <div class="simulator-control-header">
+        <p><i class="fa-solid fa-circle-info"></i> Standard emails sent by the backend are logged here. Click verification links or view receipts to test flows.</p>
+        <button class="btn-clear-emails" id="btn-clear-simulator-emails">
+          <i class="fa-solid fa-trash-can"></i> Clear Box
+        </button>
+      </div>
+
+      <div class="simulator-split-view">
+        <!-- Email Inbox List -->
+        <div class="simulator-inbox" id="simulator-email-list">
+          <div class="empty-inbox-message">No emails triggered yet. Onboard users or book appointments to see simulated emails.</div>
+        </div>
+        <!-- Email Details Panel -->
+        <div class="simulator-viewer" id="simulator-email-viewer">
+          <div class="empty-viewer-message">Select an email from the inbox list to read details.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Centralized Toast Notification Alert -->
+  <div class="toast-container" id="toast-wrapper"></div>
+
+  <!-- App Main Controller script -->
+  <script src="app.js"></script>
+</body>
+</html>

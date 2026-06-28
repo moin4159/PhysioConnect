@@ -1,0 +1,1166 @@
+{
+  "users": [
+    {
+      "id": "physio-sarah",
+      "role": "physiotherapist",
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@physioconnect.com",
+      "password": "a0d06bda2abe148024bc8b2afd5ef3d2:8f26323141eb0a1afc1659a3223ec28860d0086d39335b9e351887e6b1fd1b7cfc8da99a15e80a768424aa1dcb5551ab1500ff2f35f2f86541b2b9ccd61c6493",
+      "contactNumber": "+1 (555) 019-2834",
+      "qualification": "DPT, MSc Sports Physio",
+      "specialization": "Sports Rehabilitation",
+      "clinicAddress": "Sports Care Clinic, Suite 100, West Medical Blvd",
+      "fees": 120,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T10:08:51.009Z"
+    },
+    {
+      "id": "physio-marcus",
+      "role": "physiotherapist",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@physioconnect.com",
+      "password": "bf5ac38630756882e3180c7b0898ec43:575fce5534400835f49615f0c14c6ff4aa8bf23910edf9d8cad26b87ffb87b0a01bad22a4ed4eed56f4d1e0a1b26e454ec02a0ed89d81c370bec27770e016d8e",
+      "contactNumber": "+1 (555) 042-8812",
+      "qualification": "B.Physio, Cert. Spinal Manual Therapy",
+      "specialization": "Orthopedics & Spinal Care",
+      "clinicAddress": "Spine & Joint Institute, 505 Spine Ave",
+      "fees": 150,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T10:08:51.012Z"
+    },
+    {
+      "id": "physio-elena",
+      "role": "physiotherapist",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@physioconnect.com",
+      "password": "805b14b807f55c0899271cd1fb6fd8a4:a9897c072ea5a1a58dfd09b5ff058b665348d6fe76738bcd6221cd09a5081920cc3cb480530cc5904f8e9da5bf09facfee2dde9cdea04d561b78c4d1553cac93",
+      "contactNumber": "+1 (555) 091-7764",
+      "qualification": "DPT, PhD Pediatric Rehab",
+      "specialization": "Pediatric Physiotherapy",
+      "clinicAddress": "Kids Rehab Center, 12 Care Lane",
+      "fees": 110,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T10:08:51.015Z"
+    },
+    {
+      "id": "f0ef1deb-8e40-4a10-8e31-a4b64f60c926",
+      "role": "user",
+      "email": "jane.doe.1781172531045@example.com",
+      "password": "7605b18f1f8ca081fd5db5d3e22a8908:433f61536f7a41f6ea7b2e0eaead97100adb3f7e917af1eef9e626981a86004d436b755aa7b8bd8fcefe3ae5b6892098f5f0f6e49bf424361749a1e65958f61f",
+      "name": "Jane Doe",
+      "contactNumber": "+1 555-987-6543",
+      "age": 32,
+      "gender": "Female",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T10:08:51.163Z"
+    },
+    {
+      "id": "b4f43ca6-c174-431c-aff9-0d67ed2d4401",
+      "role": "user",
+      "email": "jane.doe.1781175972599@example.com",
+      "password": "c66e4b1361b4f44cee23500db182b2a1:153be2e626abfd33ba45ab0e7d2ac6cada88768e33ec374698afc0c618ac5bbb4b90da2135c8b2c52cbfd4ddb1a05280a7cd0db27c6c1bcc20cd9e1556eb5760",
+      "name": "Jane Doe",
+      "contactNumber": "+1 555-987-6543",
+      "age": 32,
+      "gender": "Female",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:06:12.666Z"
+    },
+    {
+      "id": "d913d5fb-c985-4f5f-890b-0f4f99babc5c",
+      "role": "user",
+      "email": "s@1gmail.com",
+      "password": "2edc68d514f70f94f9fb78f3cd559178:fcfed747c92d65f8b049970cc17dfa0111c4e70d57c2a646b9f2cd2a21025f6aad92a324b9e4625b9c02711116893fd4e99d6ca2b6aed9245ecbabf2607bfbf6",
+      "name": "m1",
+      "contactNumber": "3344343434",
+      "age": 12,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:07:31.190Z"
+    },
+    {
+      "id": "31b7c505-4c75-4a43-b75f-402d339e048f",
+      "role": "user",
+      "email": "patient.1781176602490@test.com",
+      "password": "9ddd87c53aa89b41c2ee948883f4dddf:f4a25d2d7d94e21aa49b2fa25a3fdfd574894be11c0586ecb5be7e03de62a49c563125f3535bbb85b8f57eacc7dc9d0cb0ad575fb998c9546183edbd7f2de47c",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:16:42.562Z"
+    },
+    {
+      "id": "25dff70d-2804-4fea-94bc-cb38c1e9989a",
+      "role": "physiotherapist",
+      "email": "therapist.1781176602490@test.com",
+      "password": "d9070282a3d354f4824d18b0bb06b36b:fd4722611bf1cd2b7fdb33c873977098bf8d447f614aa99a9fa26351fcee586b9a24b50e529d30cd39ddd8f34f61ce0a4eea07ae0746a23f7db78986476ea8af",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:16:42.609Z"
+    },
+    {
+      "id": "73326df8-d672-45a7-9f59-86ba604eee03",
+      "role": "user",
+      "email": "patient.1781176629607@test.com",
+      "password": "55c13fb2ae38dab3d7b1e9528af33967:7510a5b71de860b6cd9090a0c5b90d501cace329d82116b76258b78ad6325c8261fedbae0c149501e98cf0fe8a21d5597f444cbc3055c9d4c68906dac598b617",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:17:09.675Z"
+    },
+    {
+      "id": "db16161d-a9cc-467b-94a6-164d233b5e32",
+      "role": "physiotherapist",
+      "email": "therapist.1781176629607@test.com",
+      "password": "6f6e3a024ca25849c37883a6eb400b24:b3b5e288aa9ed785040615f35906f7d422adee3dda81df191da630bde7019e43687f610bcb5e786e62b92bfce2a829d2565ff17357bf59d1ffcf86725d7449c5",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:17:09.725Z"
+    },
+    {
+      "id": "d7f09653-118d-49c7-b120-bc75bfaa3708",
+      "role": "physiotherapist",
+      "email": "s1@gmail.com",
+      "password": "00fd7d3440f34c99111047067a0f9864:a2c8aa171bdc37662d6b85cd546a6608996eaca75ccf87836bcfdcaefc8491ccaa6dd43c3d1db6df273013a1d960c9e5ae203f587a45f925859a830c64902205",
+      "name": "s1@gmail.com",
+      "contactNumber": "3333232323",
+      "qualification": "ms",
+      "specialization": "sports",
+      "clinicAddress": "central station",
+      "fees": 50,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:18:53.213Z"
+    },
+    {
+      "id": "1c4ab36f-0dfb-4f40-98bb-ea23ec81c75c",
+      "role": "user",
+      "email": "patient.1781177040820@test.com",
+      "password": "b96f6c1db5937f3d89edc0a983c8901d:854089139b34af98fca415b75f36dca36aff664023a2363363e2ae9d730f6a7fcef8dcfadb48fda7488626de38792666b26456003edb704af79f7bc65ffee7d6",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:24:00.896Z"
+    },
+    {
+      "id": "8de128d0-0e64-4002-8145-b2cbcb88ada3",
+      "role": "physiotherapist",
+      "email": "therapist.1781177040820@test.com",
+      "password": "42df5771a013e32ca3148b6f7a9bcd4e:b1353e3ac80cdd8748f4d1ab915f492cb1ddc50f0d089ba61b7c87f2014ed2836e9e811a96e4d35cd318cdfd6726afedc45e800a04cecd3decf3adf6958ee137",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:24:00.936Z"
+    },
+    {
+      "id": "ed7de39b-7bf1-42c3-b1d5-ce54a6b5a36e",
+      "role": "physiotherapist",
+      "email": "john@gmail.com",
+      "password": "76a42b31f217dad7ccd3a2533fc3fc72:4883893049af3b4ca98a00e738597b2bff3bde432befdaa7d56020f15578983331450a4c97c7371f3cfd2aa02bad5878a0dd9247b6bfdf4bfbde6be026072068",
+      "name": "john",
+      "contactNumber": "1111111111",
+      "qualification": "ms",
+      "specialization": "sports",
+      "clinicAddress": "MEdical center norway",
+      "fees": 89,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:24:12.266Z"
+    },
+    {
+      "id": "e94fa850-b968-4127-8e14-cb7d9d251630",
+      "role": "user",
+      "email": "patient.1781177691118@test.com",
+      "password": "33b3527ee68a744581cf291a98f211d8:7afb574d5f1bad308ebf212b511051e380f2fd6656921135b8d8de6ec28eb448a439e430e43153e5eabe935dd2f83755f11e0a1d680703ffb6c400b51462f131",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:34:51.157Z"
+    },
+    {
+      "id": "3933598b-8bec-41fa-a37c-8cc15225bad8",
+      "role": "physiotherapist",
+      "email": "therapist.1781177691118@test.com",
+      "password": "25e73a891d945e3024af6e29654a97d0:908d7469b2f086887fec7c6d4a343e24f72d716cc1eb90585f8b3191c65d0405bca339f8cf00e1c59859f7a570e448106d39acb3ec701eec0b1335e9d5084971",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:34:51.194Z"
+    },
+    {
+      "id": "201769c9-b1ab-41a2-a68b-d1ad31a8a119",
+      "role": "user",
+      "email": "patient.1781177937559@test.com",
+      "password": "59b0622d071fd76837b15d75631a405c:b8441a2d3cf088bf1dde9b8a84ec3cc25a74c51764a94adc2cab6512c39523bdf64be7224a6cd5abb829e9ce767ecd06ff0234988e39a43ce0851418a7d73cf3",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:38:57.603Z"
+    },
+    {
+      "id": "69698fdd-6446-4a75-b99d-7f5808e02585",
+      "role": "physiotherapist",
+      "email": "therapist.1781177937559@test.com",
+      "password": "3e43b5afcae28210a23f844902acca3b:a5d53e5330625d045eb2c7bd098015fb27ec889d3ac073cc88748984052a308b1e19a15e94e7a9fa15488242978e31418da87c71072fb757e8af65e1e9f025c7",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:38:57.644Z"
+    },
+    {
+      "id": "d1a6b99c-ae96-4814-b3a6-c461f1cc4f96",
+      "role": "user",
+      "email": "patient.1781178006568@test.com",
+      "password": "4d3ef68f42c8a9699641a9cef756bbd8:72f503320dd52c8ce4248cdea295f798ecea1c0f801754d5f8aa4d833f192ba58d81c00e41d0f1a954a2fa539e43675f78032c16885dcbe1d907698c8b95267b",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:40:06.644Z"
+    },
+    {
+      "id": "d9c64826-9ab6-46d7-a52f-b4be72fa7ebf",
+      "role": "physiotherapist",
+      "email": "therapist.1781178006568@test.com",
+      "password": "025c809a38b1d0d24037d819e9e0b1f0:87fb1a4c131c3a695d42ca4ae9797b1ae1534b241cfa96a3e97474b07486ed54a7bddf65daa40039eed2a2204436856252e9e2101bbc0437ff48c8b932434cdd",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T11:40:06.686Z"
+    },
+    {
+      "id": "52c0b45b-1c8e-44ad-b15e-e1b28c3d9265",
+      "role": "user",
+      "email": "patient.1781180447862@test.com",
+      "password": "7f4474932c00f30f7c317629c3f295da:f5291502a6aab4b1858ac004b371a00e3db884b8b69c270beebf7c733cd8217e3dcc463ecafe5f700f54d0b6876e42a7e48d97fb017b73bdbf9327c67f957fbe",
+      "name": "John Patient",
+      "contactNumber": "+1 555-100-2000",
+      "age": 30,
+      "gender": "Male",
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T12:20:48.148Z"
+    },
+    {
+      "id": "14e6ef79-8500-428b-9b6d-88fa78289fd9",
+      "role": "physiotherapist",
+      "email": "therapist.1781180447862@test.com",
+      "password": "b65af82161a0a5c219f0376d31f15bde:a450ed749fed30aa35f83ac663dda307c1471dabd49e16de2738584b45e3f326b13ea315d8c57cec6a15bcdb9fb8533bd609234ce6093ff361f337728179ce1a",
+      "name": "Dr. Sarah Therapist",
+      "contactNumber": "+1 555-200-3000",
+      "qualification": "DPT, MSc",
+      "specialization": "Sports Rehab",
+      "clinicAddress": "404 Spine Way",
+      "fees": 130,
+      "isVerified": true,
+      "verificationToken": null,
+      "createdAt": "2026-06-11T12:20:48.339Z"
+    }
+  ],
+  "schedules": [
+    {
+      "physioId": "physio-sarah",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "02:00 PM",
+        "03:00 PM"
+      ],
+      "daysOff": [],
+      "fees": 120
+    },
+    {
+      "physioId": "physio-marcus",
+      "slots": [
+        "09:30 AM",
+        "10:30 AM",
+        "11:30 AM",
+        "01:30 PM",
+        "02:30 PM",
+        "03:30 PM"
+      ],
+      "daysOff": [],
+      "fees": 150
+    },
+    {
+      "physioId": "physio-elena",
+      "slots": [
+        "08:00 AM",
+        "10:00 AM",
+        "12:00 PM",
+        "02:00 PM",
+        "04:00 PM"
+      ],
+      "daysOff": [],
+      "fees": 110
+    },
+    {
+      "physioId": "25dff70d-2804-4fea-94bc-cb38c1e9989a",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "db16161d-a9cc-467b-94a6-164d233b5e32",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "8de128d0-0e64-4002-8145-b2cbcb88ada3",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "ed7de39b-7bf1-42c3-b1d5-ce54a6b5a36e",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "02:00 PM"
+      ],
+      "daysOff": [],
+      "fees": 89
+    },
+    {
+      "physioId": "3933598b-8bec-41fa-a37c-8cc15225bad8",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "69698fdd-6446-4a75-b99d-7f5808e02585",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "d9c64826-9ab6-46d7-a52f-b4be72fa7ebf",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    },
+    {
+      "physioId": "14e6ef79-8500-428b-9b6d-88fa78289fd9",
+      "slots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ],
+      "daysOff": [
+        "2026-06-25"
+      ],
+      "fees": 130
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a547ea42-9eb0-4a27-8a06-ccb3073e7d18",
+      "patientId": "d913d5fb-c985-4f5f-890b-0f4f99babc5c",
+      "patientName": "m1",
+      "physioId": "physio-sarah",
+      "physioName": "Sarah Jenkins",
+      "date": "2026-06-11",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "m1"
+      },
+      "createdAt": "2026-06-11T11:10:32.317Z"
+    },
+    {
+      "id": "91386925-294e-4972-a263-c9b51edbf968",
+      "patientId": "31b7c505-4c75-4a43-b75f-402d339e048f",
+      "patientName": "John Patient",
+      "physioId": "25dff70d-2804-4fea-94bc-cb38c1e9989a",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:16:42.651Z"
+    },
+    {
+      "id": "aa33533d-9861-4893-b559-627acbeb26de",
+      "patientId": "31b7c505-4c75-4a43-b75f-402d339e048f",
+      "patientName": "John Patient",
+      "physioId": "25dff70d-2804-4fea-94bc-cb38c1e9989a",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:16:42.671Z"
+    },
+    {
+      "id": "5e6be378-0758-46fc-9b70-7b2dc699dce1",
+      "patientId": "73326df8-d672-45a7-9f59-86ba604eee03",
+      "patientName": "John Patient",
+      "physioId": "db16161d-a9cc-467b-94a6-164d233b5e32",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:17:09.776Z"
+    },
+    {
+      "id": "3731e591-6786-419f-8469-0dd5400a7228",
+      "patientId": "73326df8-d672-45a7-9f59-86ba604eee03",
+      "patientName": "John Patient",
+      "physioId": "db16161d-a9cc-467b-94a6-164d233b5e32",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:17:09.795Z"
+    },
+    {
+      "id": "fc77849c-733d-4c44-8ac3-fc19b64f57a1",
+      "patientId": "1c4ab36f-0dfb-4f40-98bb-ea23ec81c75c",
+      "patientName": "John Patient",
+      "physioId": "8de128d0-0e64-4002-8145-b2cbcb88ada3",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:24:00.972Z"
+    },
+    {
+      "id": "1df579a6-6138-4615-8d9d-7e828a735dbd",
+      "patientId": "1c4ab36f-0dfb-4f40-98bb-ea23ec81c75c",
+      "patientName": "John Patient",
+      "physioId": "8de128d0-0e64-4002-8145-b2cbcb88ada3",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:24:00.988Z"
+    },
+    {
+      "id": "2799fbfe-66e3-4585-97b2-d070f2a39a64",
+      "patientId": "e94fa850-b968-4127-8e14-cb7d9d251630",
+      "patientName": "John Patient",
+      "physioId": "3933598b-8bec-41fa-a37c-8cc15225bad8",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:34:51.230Z"
+    },
+    {
+      "id": "2b363d8c-b5b7-4f67-96be-37a00273141c",
+      "patientId": "e94fa850-b968-4127-8e14-cb7d9d251630",
+      "patientName": "John Patient",
+      "physioId": "3933598b-8bec-41fa-a37c-8cc15225bad8",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:34:51.250Z"
+    },
+    {
+      "id": "03147f72-fd87-4e19-a1c5-c56f8779b9af",
+      "patientId": "201769c9-b1ab-41a2-a68b-d1ad31a8a119",
+      "patientName": "John Patient",
+      "physioId": "69698fdd-6446-4a75-b99d-7f5808e02585",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:38:57.685Z"
+    },
+    {
+      "id": "d57ac480-dadc-43b2-a559-51198df83de0",
+      "patientId": "201769c9-b1ab-41a2-a68b-d1ad31a8a119",
+      "patientName": "John Patient",
+      "physioId": "69698fdd-6446-4a75-b99d-7f5808e02585",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:38:57.709Z"
+    },
+    {
+      "id": "500d425b-34bf-4805-8d60-d18fad0ea9da",
+      "patientId": "d1a6b99c-ae96-4814-b3a6-c461f1cc4f96",
+      "patientName": "John Patient",
+      "physioId": "d9c64826-9ab6-46d7-a52f-b4be72fa7ebf",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:40:06.752Z"
+    },
+    {
+      "id": "19a71269-2d41-4019-867f-f601b5295a38",
+      "patientId": "d1a6b99c-ae96-4814-b3a6-c461f1cc4f96",
+      "patientName": "John Patient",
+      "physioId": "d9c64826-9ab6-46d7-a52f-b4be72fa7ebf",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T11:40:06.773Z"
+    },
+    {
+      "id": "041010b1-fe6d-4999-969c-da7805d07957",
+      "patientId": "d913d5fb-c985-4f5f-890b-0f4f99babc5c",
+      "patientName": "m1",
+      "physioId": "ed7de39b-7bf1-42c3-b1d5-ce54a6b5a36e",
+      "physioName": "john",
+      "date": "2026-06-11",
+      "timeSlot": "02:00 PM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "1212",
+        "cardHolder": "m1"
+      },
+      "createdAt": "2026-06-11T11:50:43.530Z"
+    },
+    {
+      "id": "dc80fdc6-d6cd-4dab-99ee-1b51fab384f9",
+      "patientId": "d913d5fb-c985-4f5f-890b-0f4f99babc5c",
+      "patientName": "m1",
+      "physioId": "ed7de39b-7bf1-42c3-b1d5-ce54a6b5a36e",
+      "physioName": "john",
+      "date": "2026-06-12",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "3232",
+        "cardHolder": "m1"
+      },
+      "createdAt": "2026-06-11T11:51:38.193Z"
+    },
+    {
+      "id": "f80a9420-03d2-4b2e-8b33-8c3d8eb5f4d6",
+      "patientId": "52c0b45b-1c8e-44ad-b15e-e1b28c3d9265",
+      "patientName": "John Patient",
+      "physioId": "14e6ef79-8500-428b-9b6d-88fa78289fd9",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "09:00 AM",
+      "sequenceIndex": 1,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T12:20:48.531Z"
+    },
+    {
+      "id": "30cb19a7-6d13-4a79-9579-7f0738aa56fd",
+      "patientId": "52c0b45b-1c8e-44ad-b15e-e1b28c3d9265",
+      "patientName": "John Patient",
+      "physioId": "14e6ef79-8500-428b-9b6d-88fa78289fd9",
+      "physioName": "Dr. Sarah Therapist",
+      "date": "2026-06-20",
+      "timeSlot": "10:00 AM",
+      "sequenceIndex": 0,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "lastFourDigits": "4444",
+        "cardHolder": "John Patient"
+      },
+      "createdAt": "2026-06-11T12:20:48.581Z"
+    }
+  ],
+  "emails": [
+    {
+      "id": "0818d56f-271a-4c5b-93d6-1d67d9b11460",
+      "to": "jane.doe.1781172531045@example.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Jane Doe,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=bb91419c284ff5b1893c3c9a4342f4e83cfc7d4b164bed1b61ae73d15b500b6b",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=bb91419c284ff5b1893c3c9a4342f4e83cfc7d4b164bed1b61ae73d15b500b6b\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=bb91419c284ff5b1893c3c9a4342f4e83cfc7d4b164bed1b61ae73d15b500b6b</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T10:08:51.188Z"
+    },
+    {
+      "id": "9cc9b593-39d6-446b-8808-a6fb9e212480",
+      "to": "jane.doe.1781175972599@example.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Jane Doe,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=b97782c4d194727946d9306acec9785cdceba82d6ee4e54bc0c9e8d08a7104f4",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=b97782c4d194727946d9306acec9785cdceba82d6ee4e54bc0c9e8d08a7104f4\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=b97782c4d194727946d9306acec9785cdceba82d6ee4e54bc0c9e8d08a7104f4</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:06:12.669Z"
+    },
+    {
+      "id": "a1d2f5bb-78ac-4c72-859e-9382b6a14c54",
+      "to": "s@1gmail.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello m1,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=9fe896975c3b391f67c73593009266fcfd0f4261672828e91afaa130c78c84d2",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=9fe896975c3b391f67c73593009266fcfd0f4261672828e91afaa130c78c84d2\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=9fe896975c3b391f67c73593009266fcfd0f4261672828e91afaa130c78c84d2</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:07:31.194Z"
+    },
+    {
+      "id": "6efe8fcb-3c73-4322-bd1f-34ccc35b97f0",
+      "to": "s@1gmail.com",
+      "subject": "Appointment Confirmed: m1 & Sarah Jenkins",
+      "body": "Hi m1 and Sarah Jenkins,\n\nYour appointment is confirmed for 2026-06-11 at 09:00 AM at the clinic located at Sports Care Clinic, Suite 100, West Medical Blvd. Fee paid: $120.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>Sarah Jenkins</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-11</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Sarah Jenkins (Sports Rehabilitation)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Sports Care Clinic, Suite 100, West Medical Blvd</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$120</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:10:32.323Z"
+    },
+    {
+      "id": "304fa3c4-0387-4d7e-bd35-d65463f027a1",
+      "to": "sarah.jenkins@physioconnect.com",
+      "subject": "Appointment Confirmed: m1 & Sarah Jenkins",
+      "body": "Hi m1 and Sarah Jenkins,\n\nYour appointment is confirmed for 2026-06-11 at 09:00 AM at the clinic located at Sports Care Clinic, Suite 100, West Medical Blvd. Fee paid: $120.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>Sarah Jenkins</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-11</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Sarah Jenkins (Sports Rehabilitation)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Sports Care Clinic, Suite 100, West Medical Blvd</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$120</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:10:32.341Z"
+    },
+    {
+      "id": "a37b7d4a-b411-4d01-9571-a3275f0cf887",
+      "to": "patient.1781176602490@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3005/#login?verifyToken=e687b360b949b166c517d58cdbf5900f22c81242a6ab15e2844f4e97b61a6248",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3005/#login?verifyToken=e687b360b949b166c517d58cdbf5900f22c81242a6ab15e2844f4e97b61a6248\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3005/#login?verifyToken=e687b360b949b166c517d58cdbf5900f22c81242a6ab15e2844f4e97b61a6248</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.567Z"
+    },
+    {
+      "id": "d329b1f5-2917-4971-8462-ae78c16be82d",
+      "to": "therapist.1781176602490@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3005/#login?verifyToken=14cefcc4f28ea07d4131e0e537778f5b28422f66ab654b046797e8e07a21a9c1",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3005/#login?verifyToken=14cefcc4f28ea07d4131e0e537778f5b28422f66ab654b046797e8e07a21a9c1\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3005/#login?verifyToken=14cefcc4f28ea07d4131e0e537778f5b28422f66ab654b046797e8e07a21a9c1</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.612Z"
+    },
+    {
+      "id": "41b500d4-786c-47a9-a311-cb520bc9ac53",
+      "to": "patient.1781176602490@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.654Z"
+    },
+    {
+      "id": "0242903f-5a4e-423b-8a82-09374c920cae",
+      "to": "therapist.1781176602490@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.659Z"
+    },
+    {
+      "id": "955d527c-e420-4c3a-80b8-b82e82e65633",
+      "to": "patient.1781176602490@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.677Z"
+    },
+    {
+      "id": "3f64c9ef-7fc2-42a7-bd8f-8da6c84cdbb7",
+      "to": "therapist.1781176602490@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:16:42.680Z"
+    },
+    {
+      "id": "02dbd34c-979a-4a94-a813-57794c1e9f8c",
+      "to": "patient.1781176629607@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=78cd4326ca86a3eda6a34a28bb293687923f9d8a5cdc0035041a63543bf0d170",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=78cd4326ca86a3eda6a34a28bb293687923f9d8a5cdc0035041a63543bf0d170\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=78cd4326ca86a3eda6a34a28bb293687923f9d8a5cdc0035041a63543bf0d170</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.680Z"
+    },
+    {
+      "id": "20b5349a-b374-437c-a415-55fb45da5db6",
+      "to": "therapist.1781176629607@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=05c8234e3dee116cda9bd9e5e11514ef7ebe35785e707acca4717ee661cb563c",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=05c8234e3dee116cda9bd9e5e11514ef7ebe35785e707acca4717ee661cb563c\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=05c8234e3dee116cda9bd9e5e11514ef7ebe35785e707acca4717ee661cb563c</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.729Z"
+    },
+    {
+      "id": "c0aee762-d48f-4e57-a523-69e6c24c9d3a",
+      "to": "patient.1781176629607@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.779Z"
+    },
+    {
+      "id": "005cd61a-44fa-49f2-8fc0-0b4b017e3907",
+      "to": "therapist.1781176629607@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.783Z"
+    },
+    {
+      "id": "bd4bf63c-83bd-4d35-ab47-06c67143c6ce",
+      "to": "patient.1781176629607@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.798Z"
+    },
+    {
+      "id": "ae2ca2e0-3387-4064-a938-7bab0b42b1fa",
+      "to": "therapist.1781176629607@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:17:09.802Z"
+    },
+    {
+      "id": "441a3f6f-0f89-4b28-a87f-3d2936f7cccd",
+      "to": "s1@gmail.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello s1@gmail.com,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=15e87a0811e9caa6f6c27c84c18bc2c6ecd488693fbb8bd73674fcaf9b91cd03",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=15e87a0811e9caa6f6c27c84c18bc2c6ecd488693fbb8bd73674fcaf9b91cd03\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=15e87a0811e9caa6f6c27c84c18bc2c6ecd488693fbb8bd73674fcaf9b91cd03</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:18:53.223Z"
+    },
+    {
+      "id": "2056d03a-0781-41d0-a39c-bb27135b01b3",
+      "to": "patient.1781177040820@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=48fab5b30e49ec7d76b55fa86e2f1a6e717df89895676a8275df4fd83cfabe52",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=48fab5b30e49ec7d76b55fa86e2f1a6e717df89895676a8275df4fd83cfabe52\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=48fab5b30e49ec7d76b55fa86e2f1a6e717df89895676a8275df4fd83cfabe52</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.903Z"
+    },
+    {
+      "id": "bde91501-004e-41ba-a45e-fe558415651d",
+      "to": "therapist.1781177040820@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=5e59ed22383572218c8e99ddaf51f405c498544605cddfd650217e4734614c0c",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=5e59ed22383572218c8e99ddaf51f405c498544605cddfd650217e4734614c0c\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=5e59ed22383572218c8e99ddaf51f405c498544605cddfd650217e4734614c0c</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.939Z"
+    },
+    {
+      "id": "e9780bfb-bfd5-47b4-8c0e-cc8e1e5c6edc",
+      "to": "patient.1781177040820@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.975Z"
+    },
+    {
+      "id": "89a024a4-b66f-43bc-8085-e4e8515aec03",
+      "to": "therapist.1781177040820@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.978Z"
+    },
+    {
+      "id": "91773094-8e71-409f-b30c-b57de7d71007",
+      "to": "patient.1781177040820@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.991Z"
+    },
+    {
+      "id": "36e39f17-0bb4-4e32-aa9e-8ffa50775db0",
+      "to": "therapist.1781177040820@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:00.994Z"
+    },
+    {
+      "id": "e73b65cd-0442-4f02-bf17-266b131d4016",
+      "to": "john@gmail.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello john,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=cc759523df3f54d9e734e32180dd603f1f56eec2b61f101f9551acfdcefc6052",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=cc759523df3f54d9e734e32180dd603f1f56eec2b61f101f9551acfdcefc6052\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=cc759523df3f54d9e734e32180dd603f1f56eec2b61f101f9551acfdcefc6052</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:24:12.271Z"
+    },
+    {
+      "id": "0594b202-0621-4150-86e0-46c4d0150f3f",
+      "to": "patient.1781177691118@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=9f48e1605c061b72371ac73ba08f452fe1b83d31e034925594b261ea481320c0",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=9f48e1605c061b72371ac73ba08f452fe1b83d31e034925594b261ea481320c0\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=9f48e1605c061b72371ac73ba08f452fe1b83d31e034925594b261ea481320c0</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.160Z"
+    },
+    {
+      "id": "4763a4d9-76c1-4608-b9a9-c4c5bc328411",
+      "to": "therapist.1781177691118@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=833148ad3793704d99d1847ab0ae3f643873db057e5ea71f0c3097b17ea68f3d",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=833148ad3793704d99d1847ab0ae3f643873db057e5ea71f0c3097b17ea68f3d\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=833148ad3793704d99d1847ab0ae3f643873db057e5ea71f0c3097b17ea68f3d</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.197Z"
+    },
+    {
+      "id": "f020e2d8-e3ac-4ee0-95d3-58d56fff9fd1",
+      "to": "patient.1781177691118@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.236Z"
+    },
+    {
+      "id": "b3121376-060e-4da7-9680-60e9a9a7c67a",
+      "to": "therapist.1781177691118@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.239Z"
+    },
+    {
+      "id": "12a74849-94ca-45bd-ae26-8a227abce51b",
+      "to": "patient.1781177691118@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.253Z"
+    },
+    {
+      "id": "35f8b666-353c-410e-ba45-8191cb97705c",
+      "to": "therapist.1781177691118@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:34:51.257Z"
+    },
+    {
+      "id": "13af37e5-000c-4903-a9fb-cc1e035f02ff",
+      "to": "patient.1781177937559@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=82ab84b59d36643ae9c7d0c3bdeaa6b9bfe890836ae7286e3aef426d2abd49be",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=82ab84b59d36643ae9c7d0c3bdeaa6b9bfe890836ae7286e3aef426d2abd49be\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=82ab84b59d36643ae9c7d0c3bdeaa6b9bfe890836ae7286e3aef426d2abd49be</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.608Z"
+    },
+    {
+      "id": "86eeecfc-0b65-438e-bf52-dbb7bf6a3092",
+      "to": "therapist.1781177937559@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=aa29ed0dda1482b5585f00a61eae3c68d4c0085967267ba41a172b81d0a842e9",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=aa29ed0dda1482b5585f00a61eae3c68d4c0085967267ba41a172b81d0a842e9\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=aa29ed0dda1482b5585f00a61eae3c68d4c0085967267ba41a172b81d0a842e9</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.648Z"
+    },
+    {
+      "id": "70a07b57-9be5-4898-9b72-a192bcedcbc7",
+      "to": "patient.1781177937559@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.689Z"
+    },
+    {
+      "id": "936ae90f-38a5-4927-8681-5866cd106dec",
+      "to": "therapist.1781177937559@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.695Z"
+    },
+    {
+      "id": "114cab72-ab28-41c2-b7f4-87c10d5f0bb3",
+      "to": "patient.1781177937559@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.713Z"
+    },
+    {
+      "id": "ec549f2a-c4b9-4677-8913-cb4abf228b22",
+      "to": "therapist.1781177937559@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:38:57.717Z"
+    },
+    {
+      "id": "bc1df290-1f3d-4512-bcec-78b63b39a5b6",
+      "to": "patient.1781178006568@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=a674e281d6bff544529d06728892c1d21481829e3bd93ca9ce538aa1f4a322ad",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=a674e281d6bff544529d06728892c1d21481829e3bd93ca9ce538aa1f4a322ad\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=a674e281d6bff544529d06728892c1d21481829e3bd93ca9ce538aa1f4a322ad</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.649Z"
+    },
+    {
+      "id": "8b0b0934-6cf2-44cd-873a-075c890974bc",
+      "to": "therapist.1781178006568@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=11406a7566e212cb43186c860f757d8b6804c4b9c9daa5868ad7c416fca5dd46",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n        <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n        <div style=\"margin: 24px 0; text-align: center;\">\n          <a href=\"http://localhost:3000/#login?verifyToken=11406a7566e212cb43186c860f757d8b6804c4b9c9daa5868ad7c416fca5dd46\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n        </div>\n        <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n        <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=11406a7566e212cb43186c860f757d8b6804c4b9c9daa5868ad7c416fca5dd46</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.697Z"
+    },
+    {
+      "id": "9b19f27b-9f4a-465b-9123-88599683698b",
+      "to": "patient.1781178006568@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.756Z"
+    },
+    {
+      "id": "a71a136d-e1f3-4bb4-9a56-4412954c4436",
+      "to": "therapist.1781178006568@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.761Z"
+    },
+    {
+      "id": "c05994c0-0121-4092-9f02-3a7893b21a83",
+      "to": "patient.1781178006568@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.778Z"
+    },
+    {
+      "id": "6de7daaa-294e-4958-b287-e43f9bb68677",
+      "to": "therapist.1781178006568@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:40:06.783Z"
+    },
+    {
+      "id": "b8f6f8cb-1a73-41ff-a27c-cbee7de76d53",
+      "to": "s@1gmail.com",
+      "subject": "Appointment Confirmed: m1 & john",
+      "body": "Hi m1 and john,\n\nYour appointment is confirmed for 2026-06-11 at 02:00 PM at the clinic located at MEdical center norway. Fee paid: $89.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>john</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-11</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">02:00 PM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">john (sports)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">MEdical center norway</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$89</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:50:43.536Z"
+    },
+    {
+      "id": "f13a3283-cd79-48a2-a94b-1330f82f1f2c",
+      "to": "john@gmail.com",
+      "subject": "Appointment Confirmed: m1 & john",
+      "body": "Hi m1 and john,\n\nYour appointment is confirmed for 2026-06-11 at 02:00 PM at the clinic located at MEdical center norway. Fee paid: $89.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>john</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-11</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">02:00 PM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">john (sports)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">MEdical center norway</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$89</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:50:43.553Z"
+    },
+    {
+      "id": "33cf17b0-0d5a-40d8-9715-16cbb0caca2a",
+      "to": "s@1gmail.com",
+      "subject": "Appointment Confirmed: m1 & john",
+      "body": "Hi m1 and john,\n\nYour appointment is confirmed for 2026-06-12 at 10:00 AM at the clinic located at MEdical center norway. Fee paid: $89.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>john</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-12</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">john (sports)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">MEdical center norway</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$89</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:51:38.209Z"
+    },
+    {
+      "id": "bc3f6766-5923-413c-9125-ef9f8efa29ed",
+      "to": "john@gmail.com",
+      "subject": "Appointment Confirmed: m1 & john",
+      "body": "Hi m1 and john,\n\nYour appointment is confirmed for 2026-06-12 at 10:00 AM at the clinic located at MEdical center norway. Fee paid: $89.",
+      "html": "\n      <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n        <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n        <p>Dear <strong>m1</strong> & <strong>john</strong>,</p>\n        <p>Your physiotherapy session has been successfully booked and paid for.</p>\n        <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-12</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">john (sports)</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n            <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">MEdical center norway</td>\n          </tr>\n          <tr>\n            <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n            <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$89</td>\n          </tr>\n        </table>\n        <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n      </div>\n    ",
+      "sentAt": "2026-06-11T11:51:38.231Z"
+    },
+    {
+      "id": "c0d87e2e-b983-4f39-b44e-cfaed2aed850",
+      "to": "patient.1781180447862@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello John Patient,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=600cebcbf867a2f17465ed5d98237e1b329a84b024af9e91bd73981c9437afd8",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n          <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n          <div style=\"margin: 24px 0; text-align: center;\">\n            <a href=\"http://localhost:3000/#login?verifyToken=600cebcbf867a2f17465ed5d98237e1b329a84b024af9e91bd73981c9437afd8\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n          </div>\n          <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n          <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=600cebcbf867a2f17465ed5d98237e1b329a84b024af9e91bd73981c9437afd8</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.210Z"
+    },
+    {
+      "id": "39806fb2-0815-4e34-b326-b4a851ff83eb",
+      "to": "therapist.1781180447862@test.com",
+      "subject": "Verify your Physiotherapy Appointment System Account",
+      "body": "Hello Dr. Sarah Therapist,\n\nPlease verify your account by clicking this link: http://localhost:3000/#login?verifyToken=c414e20a6c511d5b36d82b8719f6b0bdd94f4fcbc5628839dad6c4a848dc3f37",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0d9488; margin-top: 0;\">Welcome to Physiotherapy Appointment System!</h2>\n          <p>Thank you for signing up. Please click the button below to verify your email address and activate your account:</p>\n          <div style=\"margin: 24px 0; text-align: center;\">\n            <a href=\"http://localhost:3000/#login?verifyToken=c414e20a6c511d5b36d82b8719f6b0bdd94f4fcbc5628839dad6c4a848dc3f37\" style=\"background-color: #0d9488; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;\">Verify Account</a>\n          </div>\n          <p style=\"color: #64748b; font-size: 0.875rem;\">If the button doesn't work, copy and paste the link below into your browser:</p>\n          <p style=\"word-break: break-all; color: #0d9488; font-size: 0.875rem;\">http://localhost:3000/#login?verifyToken=c414e20a6c511d5b36d82b8719f6b0bdd94f4fcbc5628839dad6c4a848dc3f37</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.348Z"
+    },
+    {
+      "id": "5950bc50-5dcd-423d-b2dc-97c74cdbf93d",
+      "to": "patient.1781180447862@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n          <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n          <p>Your physiotherapy session has been successfully booked and paid for.</p>\n          <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n              <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n            </tr>\n          </table>\n          <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.541Z"
+    },
+    {
+      "id": "706e8da8-ad8a-46f4-9ccb-73197d60cd4a",
+      "to": "therapist.1781180447862@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 09:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n          <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n          <p>Your physiotherapy session has been successfully booked and paid for.</p>\n          <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">09:00 AM</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n              <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n            </tr>\n          </table>\n          <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.552Z"
+    },
+    {
+      "id": "d0f8a094-c069-4c91-a60c-731adc98955d",
+      "to": "patient.1781180447862@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n          <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n          <p>Your physiotherapy session has been successfully booked and paid for.</p>\n          <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n              <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n            </tr>\n          </table>\n          <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.594Z"
+    },
+    {
+      "id": "fcb01765-a705-4349-82b7-189b53595705",
+      "to": "therapist.1781180447862@test.com",
+      "subject": "Appointment Confirmed: John Patient & Dr. Sarah Therapist",
+      "body": "Hi John Patient and Dr. Sarah Therapist,\n\nYour appointment is confirmed for 2026-06-20 at 10:00 AM at the clinic located at 404 Spine Way. Fee paid: $130.",
+      "html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n          <h2 style=\"color: #0f766e; margin-top: 0; border-bottom: 2px solid #0f766e; padding-bottom: 8px;\">Booking Confirmed!</h2>\n          <p>Dear <strong>John Patient</strong> & <strong>Dr. Sarah Therapist</strong>,</p>\n          <p>Your physiotherapy session has been successfully booked and paid for.</p>\n          <table style=\"width: 100%; border-collapse: collapse; margin: 16px 0;\">\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Date:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">2026-06-20</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Time Slot:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">10:00 AM</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Physiotherapist:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">Dr. Sarah Therapist (Sports Rehab)</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold;\">Clinic Address:</td>\n              <td style=\"padding: 8px 0; border-bottom: 1px solid #f1f5f9; text-align: right;\">404 Spine Way</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; font-weight: bold;\">Amount Paid:</td>\n              <td style=\"padding: 8px 0; text-align: right; color: #0f766e; font-weight: bold;\">$130</td>\n            </tr>\n          </table>\n          <p style=\"color: #64748b; font-size: 0.875rem; text-align: center; margin-top: 24px;\">Thank you for using the Physiotherapy Appointment System.</p>\n        </div>\n      ",
+      "sentAt": "2026-06-11T12:20:48.602Z"
+    }
+  ]
+}
